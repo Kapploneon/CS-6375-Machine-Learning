@@ -1,0 +1,15 @@
+1. Assume a distribution with unknown parameters theta1 theta2
+2. Get the training data (Do experiments)
+3. Write the likelihood equation (probability)
+ 	P(D|theta1, theta2)
+4. Take the logarithm of likelihood, differentiate and equate to 0 and solve for theta
+
+Maximum
+
+Central Limit Theorem
+
+if n -> infinity
+the mean of samples from any distribution tends to gaussian/normal distribution
+
+Estimator is unbiased if E(X) = x
+otherwise it is biased

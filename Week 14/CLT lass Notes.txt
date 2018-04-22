@@ -1,0 +1,123 @@
+Data can be presented to the learner:
+	1. Active Learning
+		Learner can ask the teacher or the label of specific points
+	2. Teacher Assited
+		Teacher tries to help the learner
+	3. Random (most common, in real life)
+		Data randomly sampled from a population
+	4. Adverserial Learning
+		Rival
+
+FIRST:
+
+Eg: Sample complexity
+Say, after knowing one example, 8 are eliminated
+After knowing the second one, 4 are eliminated
+Third one, 2 are eliminated
+After 4th one, only 1 left, by elimination we got to correct hypo.
+
+Generalization: Say |H| hypo. in total
+
+#training instances = log(base 2)|H|
+
+
+
+SECOND:
+Teacher is trying to help
+Hypothesis H = x1 ^ x2 ^ ~x3
+
+if n possible bool features;
+n+1 needed
+
+eg: h = x1 ^ ~x2 ^ x3
+1 postive and n negative samples needed
+
+x1	x2	x3	f
+1	0	1	1
+?	1	1	0  		:x2 is negatively co-related, ~x2
+1 	?	0	0		:x3 is positively co-related, x3
+0	0	?	0		:x1 is postively co-related, x1
+
+x1 ^ ~x2 ^ x3
+
+
+THIRD
+
+
+
+Training Error:
+How often h(x) != f(x) over training instances
+
+True Error:
+Unseen instances, drawn from D
+
+We can make training error 0, but can we expect true error to 0.
+
+Can we do better? An upper bound if you will.
+
+(Probably Approx. Correct learning)
+Relaxations:
+	- Upper bound on true error
+	- Probabilistic 
+
+PAC Guarantee
+"I give an hypothesis with a guarantee that it works with true error of atmost 5% with probability 90%"
+
+Polynomial time, i.e. algo is poly bounded
+
+- Given true error with upper bound
+- prob(correctness)
+- Guarantee on sample complexity(number of training data) poly
+- Time Complexity: Poly
+
+Consistent Hypo:
+Hypo which gets 0 error over training data
+
+Exhaustion of Version Space:
+subset of Universe of Hypothesis, consistent
+
+Figure slide 22
+
+Suppose you know true error; consistent hypo. have training error = 0
+Max value E = 0.2; exhausted
+
+Set of all consistent hyp0
+Version space
+
+
+
+Agnostic Learning
+- the true concept may not be in hypothesis set
+
+Cases of finite hypothesis:
+
+|H| is finite
+
+Continuos Data
+	- number of hypothesis is infinite
+	- we need 
+
+
+
+
+Dichotomy:
+	How many ways can you put n instances in 2 classes
+
+Power of a hypothesis: how many dichotomies can a hypothesis represent(Shatter correctly)
+
+VC dimension
+	VC dim of 
+		sign(x-a) in 1 D
+	VC dim of
+		if x>a then class = y
+		else class = not y
+		in 1 D
+	VC dim of
+		if a<x<b then class = y
+		else class = not y
+		in 1D
+
+
+Placement of points is done to maximize VC dim
+
+	- placement without

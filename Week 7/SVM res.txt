@@ -1,0 +1,13 @@
+SVM Resources:
+1. Stanford CS 229 SVM Notes:
+	http://cs229.stanford.edu/notes/cs229-notes3.pdf
+2. Another good presentation:
+	http://compneurosci.com/wiki/images/4/4f/Support_Vector_Machines_%28SVM%29.pdf
+3. MIT guide to SVM:
+	http://web.mit.edu/6.034/wwwbob/svm-notes-long-08.pdf
+4. Boswell's guide to SVM:
+	http://dustwell.com/PastWork/IntroToSVM.pdf
+5. MIT video on SVM:
+	https://www.youtube.com/watch?v=_PwhiWxHK8o&feature=youtu.be
+6. Chapter 9 of ISLR:
+	http://www-bcf.usc.edu/~gareth/ISL/

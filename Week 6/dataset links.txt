@@ -1,0 +1,4 @@
+https://archive.ics.uci.edu/ml/datasets/Credit+Approval
+https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame
+https://archive.ics.uci.edu/ml/datasets/banknote+authentication
+https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice

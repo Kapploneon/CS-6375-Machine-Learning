@@ -1,0 +1,11 @@
+References for Deep Learning:
+
+1. Neural Networks and Deep Learning http://neuralnetworksanddeeplearning.com/
+2. Deep Learning website http://deeplearning.net/
+3. Deep Learning Book http://www.deeplearningbook.org/
+4. Nature paper on Deep Learning 
+From campus: http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html
+Outside: https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf
+5. YouTube channel on Deep Learning https://youtu.be/b99UVkWzYTQ
+6. "Yes you should understand backprop" https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+7. LeCun's website on Facebook: https://code.facebook.com/pages/1902086376686983

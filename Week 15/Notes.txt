@@ -1,0 +1,10 @@
+Unsupervised Learning
+
+Group data points in k clusters
+
+Algo:
+
+start:
+	k points to be centers
+
+	repeat until centers dont change

@@ -1,0 +1,90 @@
+Ensemble Methods
+
+What we have known about hypothesis
+h(x) = w0 + w1x1 + w2x2 + ...
+
+Update this h(x)
+h(x) = @1h1(x) + @2h2(x) + ...
+
+These individual models combine their powers.
+
+- Combine models and come up with a final model
+- Output is a function of weaker models, not attributes
+
+The attributes that we used, we assumed that they were not correlated.
+But, if related, not good for us.
+
+Advantages:
+- Better to combine models than attributes, as attributes may be dependent
+
+ML: We propose h, to understand the process of data generation
+
+We optimize this:
+Sample Error (Training Error)
+
+Better Performance Measure
+True Error (test error)
+	> n unseen items
+	> r incorrect
+
+	True Error = r/n
+
+E(Y) = sum(yi * pi)
+E(error) = p
+
+Bias = real value - estimated value
+	 = 3.55 - 3.40
+
+For ideal estimate, bias = 0
+
+variance = how much estimate of one sample
+varies from the other
+	3.6	3.0	3.85
+
+stock market
+Variance in an estimate not a good thing.
+Estimate stays put
+
+
+Bias:
+	- how much estimate varies from true value
+	- low bias --> accuracy of algo
+
+Variance:
+	- measures precision or specificity of a match
+	- low variance is desirable
+	- don't get lucky
+
+Mathematical Derivation
+
+True Func: y = f(x) + #
+	# noise
+
+Our hypothesis: h(x) = w'x + b
+Minimize the squared error
+E = E(yi - hi)	
+
+
+E(error) = variance + bias^2 + noise^2
+
+
+Training Sample 1
+	- Aim: reduce bias
+		- complex model
+		- higher order poly, say 10
+
+Training Sample 2
+	- apply same model that I applied for sample 1
+
+	If we reduce bias, we get high variance
+
+
+Bias Variance Tradeoff
+
+Simple Model:
+	High Bias
+	Low Variance
+
+Complex Model:
+	Low bias
+	High Variance
